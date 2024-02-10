@@ -4,13 +4,13 @@ body{
   width:100%;
 }
 
-div#bonzi-buddy-ur{
+#bonzi-buddy-ur{
   position: absolute;
   top: 0;
   right: 0;
 }
 
-div#bonzi-buddy-bl{
+#bonzi-buddy-bl{
   bottom:0;
   left:0;
   position:absolute;
@@ -24,4 +24,85 @@ h1#loginText{
   top: 50%;
   left: 30%;
   z-index: 99;
+}
+
+/*on load animation css*/
+#bonzi-buddy-ur {
+  animation: jumpFrames2 2s steps(10) forwards;
+}
+
+#bonzi-buddy-bl {
+  animation: jumpFrames 2s steps(10) forwards;
+}
+
+@keyframes jumpFrames {
+  0% {
+    transform: translateY(300px);
+  }
+  10% {
+    transform: translateY(270px);
+  }
+  20% {
+    transform: translateY(240px);
+  }
+  30% {
+    transform: translateY(210px);
+  }
+  40% {
+    transform: translateY(180px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+  60% {
+    transform: translateY(120px);
+  }
+  70% {
+    transform: translateY(90px);
+  }
+  80% {
+    transform: translateY(60px);
+  }
+  90% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes jumpFrames2 {
+  0% {
+    transform: translateY(-300px); /* Start higher above */
+  }
+  10% {
+    transform: translateY(-270px);
+  }
+  20% {
+    transform: translateY(-240px);
+  }
+  30% {
+    transform: translateY(-210px);
+  }
+  40% {
+    transform: translateY(-180px);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+  60% {
+    transform: translateY(-120px);
+  }
+  70% {
+    transform: translateY(-90px);
+  }
+  80% {
+    transform: translateY(-60px);
+  }
+  90% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0); /* End at its original position */
+  }
 }
