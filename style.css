@@ -15,3 +15,11 @@ div#bonzi-buddy-bl{
   left:0;
   position:absolute;
 }
+
+h1#loginText{
+  transform: rotate(-30deg);
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
