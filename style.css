@@ -4,6 +4,43 @@ body{
   width:100%;
 }
 
+div#login-form{
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000000;
+
+}
+
+
+#submit-button:hover {
+  animation: moveButton 1s infinite;
+}
+
+@keyframes moveButton {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+div#greeting-text{
+  font-size: 24px;
+  color: #ff0000;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
 div#bonzi-buddy-ur{
   position: absolute;
   top: 0;
@@ -14,5 +51,6 @@ div#bonzi-buddy-bl{
   bottom:0;
   left:0;
   position:absolute;
-  width: 100%;
+  width: 50%;
+  z-index: -1;
 }
