@@ -1,1 +1,5 @@
-
+body{
+  background-image: url("/static/imgs/windowsXP-BG.jpeg");
+  height:500px;
+  width:500px;
+}
