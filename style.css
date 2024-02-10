@@ -1,5 +1,7 @@
 body{
   background-image: url("/static/imgs/windowsXP-BG.jpeg");
+  height:100%;
+  width:100%;
 }
 
 #bonzi-buddy-ur{
@@ -12,6 +14,15 @@ body{
   bottom:0;
   left:0;
   position:absolute;
+  width: 100%;
+}
+
+h1#loginText{
+  transform: rotate(-30deg);
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
 
 /*on load animation css*/
