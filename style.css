@@ -23,4 +23,5 @@ h1#loginText{
   position: absolute;
   top: 50%;
   left: 30%;
+  z-index: 99;
 }
