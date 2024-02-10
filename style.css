@@ -1,5 +1,17 @@
 body{
   background-image: url("/static/imgs/windowsXP-BG.jpeg");
-  height:500px;
-  width:500px;
+  height:100vh;
+  width:100vw;
+}
+
+div#bonzi-buddy-ur{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div#bonzi-buddy-bl{
+  bottom:0;
+  left:0;
+  position:absolute;
 }
