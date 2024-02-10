@@ -12,7 +12,10 @@
 
 // Function to turn sound on
 
-
+function playAudio() {
+    const audio = new Audio('static/sounds/start.mp3');
+    audio.play();
+}
 
 // Virus popup number 1
 
